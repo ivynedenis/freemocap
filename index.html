@@ -1,0 +1,326 @@
+<title>TikTok Shop South Africa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: an onyx and jewel-toned salon. Living gradient hero, then a long editorial column with card grids for the ideas. */
+:root{
+  --bg:#faf6ef; --surface:#fffdf8; --ink:#1c1622; --muted:#5d5262; --line:#e6dccb;
+  --gold:#a8792a; --gold-2:#d9b36a; --rose:#b4476a; --emerald:#1f7a62; --sapphire:#2d4f9e; --plum:#5b2a6e;
+  --chip:#f3ecdf;
+  --display:"Cormorant Garamond","EB Garamond",Garamond,"Times New Roman",serif;
+  --body:"EB Garamond",Garamond,Georgia,"Times New Roman",serif;
+  --shadow:0 18px 50px -28px rgba(60,30,70,.35);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f0c14; --surface:#18131f; --ink:#f4ecdf; --muted:#b7a9ba; --line:#2e2636;
+  --gold:#e2bd73; --gold-2:#f3d79c; --rose:#e57a9c; --emerald:#4fc6a1; --sapphire:#7f9cf0; --plum:#b07acb;
+  --chip:#221b2b; --shadow:0 18px 50px -28px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f0c14; --surface:#18131f; --ink:#f4ecdf; --muted:#b7a9ba; --line:#2e2636;
+  --gold:#e2bd73; --gold-2:#f3d79c; --rose:#e57a9c; --emerald:#4fc6a1; --sapphire:#7f9cf0; --plum:#b07acb;
+  --chip:#221b2b; --shadow:0 18px 50px -28px rgba(0,0,0,.8); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.13rem;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1080px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.1;margin:0}
+h2{font-size:clamp(2rem,4vw,2.9rem);font-weight:600}
+h3{font-size:1.45rem;font-weight:600}
+p{margin:0}
+.eyebrow{font-family:var(--body);font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600}
+a{color:var(--sapphire)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+
+/* HERO: animated jewel gradient */
+.hero{position:relative;overflow:hidden;border-radius:0 0 34px 34px;
+  margin-top:calc(-1 * env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + 4.5rem);padding-bottom:4rem;
+  margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));
+  background:#140d1c;color:#fbf3e4}
+.hero .inner{position:relative;z-index:2;max-width:1080px;margin:0 auto;
+  padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.75;z-index:1;animation:drift 22s ease-in-out infinite alternate}
+.b1{width:520px;height:520px;background:radial-gradient(circle,#c9497a,transparent 65%);top:-160px;left:-120px}
+.b2{width:560px;height:560px;background:radial-gradient(circle,#d9a441,transparent 65%);top:-60px;right:-180px;animation-delay:-6s}
+.b3{width:520px;height:520px;background:radial-gradient(circle,#1f8f72,transparent 65%);bottom:-260px;left:30%;animation-delay:-12s}
+.b4{width:420px;height:420px;background:radial-gradient(circle,#3d5fc4,transparent 65%);bottom:-200px;right:5%;animation-delay:-3s}
+@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(60px,40px) scale(1.12)}100%{transform:translate(-40px,20px) scale(.95)}}
+.hero .eyebrow{color:#f0cf8c}
+.hero h1{font-size:clamp(2.7rem,7vw,5.2rem);font-weight:600;margin:.6rem 0 1.1rem;max-width:15ch}
+.hero h1 em{font-style:italic;background:linear-gradient(100deg,#f6d894,#f2a3bd,#9fd8c4,#f6d894);background-size:300% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 9s linear infinite}
+@keyframes sheen{to{background-position:300% 0}}
+.hero .lede{font-size:1.3rem;max-width:58ch;color:#eadfce}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:2.6rem}
+.stat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(8px);border-radius:18px;padding:1rem 1.1rem}
+.stat b{display:block;font-family:var(--display);font-size:2.1rem;font-weight:600;color:#f6d894;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:.98rem;color:#e6dacb}
+
+section{padding-block:4.2rem 0}
+.head{display:grid;gap:.7rem;margin-bottom:2rem;max-width:68ch}
+.head p{color:var(--muted)}
+
+/* Status */
+.status{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:1.4rem;box-shadow:var(--shadow);min-width:0}
+.pill{display:inline-flex;align-items:center;gap:.45rem;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;
+  padding:.28rem .75rem;border-radius:99px;margin-bottom:.8rem}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.p-wait{color:var(--rose);background:color-mix(in srgb,var(--rose) 13%,transparent)}
+.p-live{color:var(--emerald);background:color-mix(in srgb,var(--emerald) 13%,transparent)}
+.p-gap{color:var(--gold);background:color-mix(in srgb,var(--gold) 15%,transparent)}
+.card p{color:var(--muted);margin-top:.45rem}
+
+/* Shares bar */
+.shares{margin-top:16px}
+.bar{display:grid;grid-template-columns:7.5rem 1fr 3.6rem;align-items:center;gap:12px;margin-top:.7rem}
+.bar .track{height:12px;border-radius:99px;background:var(--chip);overflow:hidden}
+.bar .fill{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--plum),var(--rose),var(--gold-2));background-size:200% 100%;animation:flow 6s ease-in-out infinite alternate}
+@keyframes flow{to{background-position:100% 0}}
+.bar .v{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.note{font-size:.95rem;color:var(--muted);margin-top:1rem}
+
+/* Stages */
+.stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-radius:22px;overflow:hidden;border:1px solid var(--line)}
+.stage{padding:1.4rem;background:var(--surface);position:relative;min-width:0}
+.stage+.stage{border-left:1px solid var(--line)}
+.stage .when{font-size:.88rem;color:var(--muted);letter-spacing:.06em}
+.stage h3{margin:.3rem 0 .5rem}
+.stage p{color:var(--muted);font-size:1.02rem}
+.stage::after{content:"";position:absolute;left:0;right:0;top:0;height:4px}
+.stage:nth-child(1)::after{background:linear-gradient(90deg,var(--rose),var(--plum))}
+.stage:nth-child(2)::after{background:linear-gradient(90deg,var(--gold),var(--rose))}
+.stage:nth-child(3)::after{background:linear-gradient(90deg,var(--emerald),var(--gold))}
+.stage:nth-child(4)::after{background:linear-gradient(90deg,var(--sapphire),var(--emerald))}
+.stage.now{background:linear-gradient(160deg,color-mix(in srgb,var(--gold) 12%,var(--surface)),var(--surface))}
+.stage .tag{display:inline-block;margin-top:.7rem;font-size:.8rem;font-weight:600;color:var(--gold);letter-spacing:.12em;text-transform:uppercase}
+
+/* Ideas */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1.4rem}
+.filters button{font:inherit;font-size:1rem;padding:.4rem 1rem;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;transition:all .25s}
+.filters button[aria-pressed="true"]{background:linear-gradient(120deg,var(--plum),var(--rose));color:#fff;border-color:transparent}
+.ideas{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.idea{display:flex;flex-direction:column;gap:.55rem}
+.idea .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.idea .rank{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1;
+  background:linear-gradient(135deg,var(--gold),var(--rose));-webkit-background-clip:text;background-clip:text;color:transparent}
+.idea .layer{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.idea .proof{font-size:.98rem;color:var(--muted)}
+.idea .sa{font-size:1rem;border-top:1px dashed var(--line);padding-top:.6rem;margin-top:auto}
+.idea .sa b{color:var(--emerald)}
+.meta{display:flex;flex-wrap:wrap;gap:6px}
+.meta span{font-size:.84rem;background:var(--chip);border-radius:8px;padding:.15rem .55rem}
+
+/* Local strengths */
+.local{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.local .card{display:grid;gap:.3rem}
+.local .card strong{font-family:var(--display);font-size:1.3rem;font-weight:600}
+
+/* Plan */
+.plan{display:grid;gap:14px}
+.step{display:grid;grid-template-columns:9rem 1fr;gap:1.2rem;align-items:start}
+.step .m{font-family:var(--display);font-size:1.35rem;font-weight:600;color:var(--gold)}
+.step .card{box-shadow:none}
+
+/* Table */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px}
+th,td{text-align:left;padding:.85rem 1.1rem;vertical-align:top;border-bottom:1px solid var(--line)}
+th{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600}
+
+.sources{columns:2;column-gap:2rem;padding-left:1.1rem;color:var(--muted)}
+.sources li{margin-bottom:.4rem;break-inside:avoid}
+footer{padding-block:3.5rem 3rem;color:var(--muted);font-size:.95rem;text-align:center}
+
+@media (max-width:860px){
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .status,.local{grid-template-columns:1fr}
+  .stages{grid-template-columns:1fr 1fr}
+  .stage:nth-child(3){border-left:0}
+  .stage:nth-child(n+3){border-top:1px solid var(--line)}
+  .sources{columns:1}
+}
+@media (max-width:520px){
+  .stages{grid-template-columns:1fr}
+  .stage+.stage{border-left:0;border-top:1px solid var(--line)}
+  .step{grid-template-columns:1fr;gap:.4rem}
+  .bar{grid-template-columns:5.6rem 1fr 3.2rem}
+  .hero .lede{font-size:1.15rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
+  <div class="inner">
+    <div class="eyebrow">TikTok Research · South Africa · November 2026</div>
+    <h1>The months before TikTok Shop opens are the <em>head start</em></h1>
+    <p class="lede">Nineteen business, app and commerce models proven in China, the USA, the UK and Southeast Asia, ranked for South Africa, with a plan to have clients, creators and studios ready on launch day.</p>
+    <div class="stats">
+      <div class="stat"><b>R159bn</b><span>SA online retail forecast for 2026</span></div>
+      <div class="stat"><b>+22.5%</b><span>growth on 2025</span></div>
+      <div class="stat"><b>10%</b><span>of all SA retail now online</span></div>
+      <div class="stat"><b>22 Sep</b><span>TikTok One opened in SA</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="status">
+  <div class="head">
+    <div class="eyebrow">Where things stand</div>
+    <h2>Checkout is coming; the creator economy is already here</h2>
+  </div>
+  <div class="status">
+    <div class="card"><span class="pill p-wait">Awaiting launch</span><h3>TikTok Shop</h3><p>In app checkout is still to open in South Africa and TikTok has announced no date. 21 to 24 markets are live worldwide in 2026.</p></div>
+    <div class="card"><span class="pill p-live">Live</span><h3>TikTok One</h3><p>Opened 22 September 2026. Brands find and pay local creators for campaigns, the first TikTok commerce tool working here.</p></div>
+    <div class="card"><span class="pill p-gap">Open opportunity</span><h3>The service layer</h3><p>Agencies, studios, host training and sample logistics for TikTok Shop are still small locally. First movers set the standard.</p></div>
+  </div>
+  <div class="card shares">
+    <h3>Where South Africans shop online</h3>
+    <div class="bar"><span>Takealot</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="v">35.3%</span></div>
+    <div class="bar"><span>Shein</span><div class="track"><div class="fill" style="width:61%"></div></div><span class="v">21.5%</span></div>
+    <div class="bar"><span>Amazon</span><div class="track"><div class="fill" style="width:36%"></div></div><span class="v">12.7%</span></div>
+    <div class="bar"><span>Temu</span><div class="track"><div class="fill" style="width:33%"></div></div><span class="v">11.6%</span></div>
+    <p class="note">Share of online shoppers using each platform. Temu and Shein growth slowed after SARS removed the duty free concession on small imported parcels; Amazon Prime arrived in June 2026. Bars scaled to Takealot.</p>
+  </div>
+</section>
+
+<section id="stages">
+  <div class="head">
+    <div class="eyebrow">The pattern every market repeats</div>
+    <h2>Four stages from Douyin to London to Dallas</h2>
+    <p>China's Douyin walked this path from 2018; the UK, the USA and Southeast Asia followed it after their launches. South Africa sits before stage one, the best moment to prepare.</p>
+  </div>
+  <div class="stages">
+    <div class="stage now"><div class="when">Months 0 to 6</div><h3>Land grab</h3><p>Early sellers and affiliate creators ride TikTok's launch subsidies and free shipping.</p><span class="tag">Prepare for this now</span></div>
+    <div class="stage"><div class="when">Months 3 to 18</div><h3>Service layer</h3><p>Agencies, studios, host trainers, sample hubs and data tools earn steady fees.</p></div>
+    <div class="stage"><div class="when">Months 12 to 36</div><h3>Brand layer</h3><p>Brands born on TikTok and factory to creator supply chains take the largest margins.</p></div>
+    <div class="stage"><div class="when">Month 24 onward</div><h3>Platform layer</h3><p>Software, AI hosts, seller financing and cross border trade.</p></div>
+  </div>
+</section>
+
+<section id="ideas">
+  <div class="head">
+    <div class="eyebrow">Models to replicate</div>
+    <h2>Nineteen proven ideas, ranked for South Africa</h2>
+    <p>Rank reflects speed to first revenue and fit with local conditions. Each card names where the model was proven and how it works here.</p>
+  </div>
+  <div class="filters" role="group" aria-label="Filter ideas by layer">
+    <button type="button" id="f-all" data-f="all" aria-pressed="true">All 19</button>
+    <button type="button" id="f-service" data-f="service" aria-pressed="false">Services</button>
+    <button type="button" id="f-media" data-f="media" aria-pressed="false">Media and AI</button>
+    <button type="button" id="f-commerce" data-f="commerce" aria-pressed="false">Commerce</button>
+    <button type="button" id="f-finance" data-f="finance" aria-pressed="false">Finance and promotion</button>
+  </div>
+  <div class="ideas" id="ideaGrid"></div>
+</section>
+
+<section id="local">
+  <div class="head">
+    <div class="eyebrow">Built for South Africa</div>
+    <h2>Local strengths that foreign sellers lack</h2>
+  </div>
+  <div class="local">
+    <div class="card"><strong>Twelve official languages</strong><p>Creators and AI hosts who sell in isiZulu, isiXhosa, Afrikaans, Sesotho and English reach buyers global brands miss.</p></div>
+    <div class="card"><strong>WhatsApp shopping habit</strong><p>Sell through WhatsApp and Instagram lives today, then move those buyers to TikTok Shop on launch day.</p></div>
+    <div class="card"><strong>Stokvels</strong><p>Community savings clubs already buy in bulk together, a ready made base for group buying.</p></div>
+    <div class="card"><strong>Pickup points</strong><p>Pargo and PAXI at PEP stores give low cost delivery and returns far beyond the metros.</p></div>
+    <div class="card"><strong>Local payments</strong><p>Ozow, PayFast, Yoco, SnapScan and Peach Payments take instant EFT and card payments for live sales before TikTok checkout arrives.</p></div>
+    <div class="card"><strong>Payday rhythm</strong><p>Month end around the 25th, Black Friday and Heritage Day give a calendar for named sale events.</p></div>
+    <div class="card"><strong>Power resilience</strong><p>Studios with inverter and solar backup can promise sellers streams that stay live through outages.</p></div>
+    <div class="card"><strong>Proudly South African products</strong><p>Rooibos, marula skincare, braai goods, wigs and braids, local fashion: stories that sell at premium prices.</p></div>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="head">
+    <div class="eyebrow">Sequence</div>
+    <h2>A plan for one founder or a small team</h2>
+  </div>
+  <div class="plan">
+    <div class="step"><div class="m">Now to month 3</div><div class="card"><h3>Readiness agency and WhatsApp selling</h3><p>Sign five local brands, run their creator campaigns on TikTok One, and earn from WhatsApp comment to buy lives while TikTok Shop is pending.</p></div></div>
+    <div class="step"><div class="m">Months 3 to 9</div><div class="card"><h3>Studio, host academy and sample hub</h3><p>Open one studio with power backup, train hosts in several languages, and link samples to Pargo and PAXI points.</p></div></div>
+    <div class="step"><div class="m">Launch day</div><div class="card"><h3>Switch on checkout</h3><p>Move every client, creator and buyer list onto TikTok Shop in the first week, when launch subsidies are richest.</p></div></div>
+    <div class="step"><div class="m">Months 9 to 18</div><div class="card"><h3>Data tool and AI hosts</h3><p>Turn agency data into a local analytics product and test AI hosts on overnight streams.</p></div></div>
+    <div class="step"><div class="m">Month 12 onward</div><div class="card"><h3>Own brand</h3><p>Launch a private label in the category your data shows selling best. Hair and beauty is the strongest candidate.</p></div></div>
+  </div>
+</section>
+
+<section id="risks">
+  <div class="head">
+    <div class="eyebrow">Risks and law</div>
+    <h2>Plan for these before launch</h2>
+  </div>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Risk</th><th>Lesson from elsewhere</th><th>Response in South Africa</th></tr></thead>
+      <tbody>
+        <tr><td>Platform rule changes</td><td>Indonesia closed TikTok Shop in October 2023 until it merged with Tokopedia</td><td>Keep clients on two or more channels; own WhatsApp and email lists</td></tr>
+        <tr><td>Cheap imports</td><td>UK and US sellers faced low priced cross border goods</td><td>Compete on local speed, easy returns, language and story</td></tr>
+        <tr><td>Payout timing</td><td>Two to four week payouts strain small sellers</td><td>Offer stock financing; plan cash flow ahead</td></tr>
+        <tr><td>Returns cost</td><td>Free shipping drives returns up</td><td>Price returns in; route through pickup points</td></tr>
+        <tr><td>Customer data</td><td>Privacy fines in the EU and UK</td><td>POPIA consent for data and marketing messages</td></tr>
+        <tr><td>Online sales rules</td><td>Consumer law shapes every market</td><td>Consumer Protection Act and ECT Act, including the 7 day cooling off period</td></tr>
+        <tr><td>Influencer disclosure</td><td>UK ASA and US FTC enforce #ad</td><td>Advertising Regulatory Board code; train every host and creator</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="head"><div class="eyebrow">Sources</div><h2>Where the figures come from</h2><p>Launch status comes from third party reports; confirm the latest in TikTok Seller Center and the TikTok Newsroom.</p></div>
+  <ul class="sources">
+    <li><a href="https://growthcharter.co.za/tiktok-newsroom/is-tiktok-shop-available-in-south-africa/" target="_blank" rel="noopener">GrowthCharter: Is TikTok Shop in South Africa yet?</a></li>
+    <li><a href="https://gadget.co.za/tiktokone14t/" target="_blank" rel="noopener">Gadget: TikTok One launches in SA</a></li>
+    <li><a href="https://iol.co.za/business/2026-09-29-pay-our-creators-south-africa-turns-up-pressure-on-tiktok/" target="_blank" rel="noopener">IOL: South Africa turns up pressure on TikTok</a></li>
+    <li><a href="https://www.timeslive.co.za/news/2026-09-02-online-retail-sales-expected-to-leap-to-r159bn-this-year/" target="_blank" rel="noopener">TimesLIVE: Online retail expected to reach R159bn</a></li>
+    <li><a href="https://www.connectingafrica.com/ecommerce/south-african-online-shoppers-prefer-local-to-temu-shein" target="_blank" rel="noopener">Connecting Africa: SA shoppers prefer local to Temu, Shein</a></li>
+    <li><a href="https://slashcart.org/blogs/news/tiktok-shop-available-countries" target="_blank" rel="noopener">Slashcart: TikTok Shop countries 2026</a></li>
+  </ul>
+</section>
+
+</main>
+<footer>TikTok Research · prepared November 2026</footer>
+
+<script>
+const ideas=[
+ {l:"service",t:"TikTok Shop readiness agency",p:"China TikTok Partners; US and UK shop agencies",m:["Retainer + 5 to 15% of sales","Low capital"],sa:"Sign brands now through TikTok One, run their shops from launch day."},
+ {l:"service",t:"Multilingual creator agency",p:"China MCNs such as Ruhnn; US talent managers",m:["10 to 30% of creator earnings","Low capital"],sa:"Creators in every official language reach buyers foreign agencies miss."},
+ {l:"service",t:"Livestream studio with power backup",p:"Hangzhou and Guangzhou live bases",m:["Hourly rent + host fees","Medium capital"],sa:"Johannesburg, Cape Town, Durban; solar and inverter keep streams live."},
+ {l:"service",t:"Sample and fulfilment hub",p:"Creator sample logistics in China and the US",m:["Per parcel + storage","Low to medium capital"],sa:"Link to Pargo and PAXI points for cheap delivery and returns."},
+ {l:"commerce",t:"Hair and beauty brand",p:"UK Gymshark; China Perfect Diary, Florasis",m:["Product margin","Medium capital"],sa:"Wigs, braids and skincare for melanin rich skin: deep local demand."},
+ {l:"commerce",t:"WhatsApp comment to buy software",p:"US CommentSold",m:["SaaS fee + % of sales","Low capital"],sa:"Earns today on WhatsApp and Instagram lives, before TikTok checkout."},
+ {l:"commerce",t:"Stokvel group buying",p:"China Pinduoduo, Meituan Select",m:["Margin on volume","Medium capital"],sa:"Stokvels already pool money to buy in bulk."},
+ {l:"media",t:"AI hosts in local languages",p:"China Silicon Intelligence, Baidu digital humans",m:["Subscription per avatar","Medium capital"],sa:"Overnight streams in isiZulu, Afrikaans and more. Check TikTok AI disclosure rules."},
+ {l:"media",t:"South African micro drama app",p:"US hits ReelShort, DramaBox",m:["Coins, subscriptions, placement","Medium capital"],sa:"Local stories in local languages, filmed fast, promoted with TikTok clips."},
+ {l:"media",t:"Local shop analytics tool",p:"China Chanmama; US Kalodata, FastMoss",m:["Monthly subscription","Low to medium capital"],sa:"The first local data tool owns the category on launch day."},
+ {l:"service",t:"Host academy",p:"China certified livestream host schools",m:["Course + placement fees","Low capital"],sa:"Feeds your agency and studio with trained bilingual hosts."},
+ {l:"service",t:"UGC video production",p:"US Billo, Insense",m:["Price per video, 30 to 50% margin","Low capital"],sa:"Everyday South Africans film product videos for brands."},
+ {l:"media",t:"AI video ad generator",p:"US Creatify, Arcads, HeyGen",m:["SaaS subscription","Medium capital"],sa:"Local accents and slang set it apart from global tools."},
+ {l:"commerce",t:"Factory to creator catalogue",p:"Yiwu and Guangzhou supply chain bases",m:["Wholesale margin","Medium capital"],sa:"Ready to ship stock for creators who sell without holding inventory."},
+ {l:"commerce",t:"Heritage storytelling lives",p:"China East Buy (Dong Yuhui)",m:["Product margin","Low capital"],sa:"Rooibos, marula, crafts and regional food sold through story."},
+ {l:"commerce",t:"Live auctions",p:"US Whatnot; UK Vinted, Depop",m:["8 to 10% commission","Low to medium capital"],sa:"Sneakers, trading cards, vintage and pre loved fashion."},
+ {l:"finance",t:"Seller stock financing",p:"Shopify Capital; Chinese platform lending",m:["Fee on advances","High capital"],sa:"Bridges the two to four week payout gap for small sellers."},
+ {l:"finance",t:"Shoppable video for retail websites",p:"Sweden Bambuser; US Firework",m:["SaaS fee","Medium capital"],sa:"Lets local retailers stream on their own sites too."},
+ {l:"finance",t:"Named payday sale day",p:"China 11.11 Singles Day, 6.18",m:["Brand fees + commission","Low capital"],sa:"Own a month end event around the 25th, alongside Black Friday."}
+];
+const names={service:"Services",media:"Media and AI",commerce:"Commerce",finance:"Finance and promotion"};
+const grid=document.getElementById("ideaGrid");
+grid.innerHTML=ideas.map((d,i)=>`<article class="card idea" data-l="${d.l}">
+ <div class="top"><span class="rank">${String(i+1).padStart(2,"0")}</span><span class="layer">${names[d.l]}</span></div>
+ <h3>${d.t}</h3><p class="proof">Proven by ${d.p}</p>
+ <div class="meta">${d.m.map(x=>`<span>${x}</span>`).join("")}</div>
+ <p class="sa"><b>In South Africa:</b> ${d.sa}</p></article>`).join("");
+const btns=document.querySelectorAll(".filters button");
+function apply(f){btns.forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===f));
+ grid.querySelectorAll(".idea").forEach(c=>c.hidden=!(f==="all"||c.dataset.l===f));
+ try{localStorage.setItem("ttf",f)}catch(e){}}
+btns.forEach(b=>b.addEventListener("click",()=>apply(b.dataset.f)));
+try{const s=localStorage.getItem("ttf");if(s&&document.querySelector(`[data-f="${s}"]`))apply(s)}catch(e){}
+</script>
