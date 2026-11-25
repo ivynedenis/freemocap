@@ -1,157 +1,131 @@
-<p align="center">
-    <img src="https://github.com/freemocap/freemocap/assets/15314521/da1af7fe-f808-43dc-8f59-c579715d6593" height="240" alt="Project Logo">
-</p> 
+# TikTok Research
 
+**Business, app and commerce models proven in China, the USA, the UK and Southeast Asia, ready to replicate in a market where TikTok Shop is arriving.**
 
-<h3 align="center">The FreeMoCap Project</h3>
-<h4 align="center"> A free-and-open-source, hardware-and-software-agnostic, minimal-cost, research-grade, motion capture
-system and platform for decentralized scientific research, education, and training</h2>
+---
 
+## 1. The pattern every TikTok Shop market follows
 
-<p align="center">
+TikTok Shop opened in Southeast Asia and the UK in 2021, the USA in September 2023, and parts of Europe (Spain, Ireland, then Germany, France, Italy), Mexico, Brazil and Japan from 2024 into 2025. Each launch repeats the path China's Douyin walked from 2018:
 
-<a href="https://doi.org/10.5281/zenodo.7233714">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7233714.svg" alt=DOI-via-Zenodo.org>
-  </a>
+| Stage | Months after launch | Who earns the money |
+|---|---|---|
+| **1. Land grab** | 0 to 6 | Early sellers, affiliate creators, TikTok subsidies and free shipping promotions |
+| **2. Service layer** | 3 to 18 | Agencies, livestream studios, host trainers, sample logistics, data tools |
+| **3. Brand layer** | 12 to 36 | Brands born on TikTok, factory to creator supply chains, private labels |
+| **4. Platform layer** | 24+ | Software for brands and creators, AI hosts, financing, cross border trade |
 
-<a href="https://github.com/psf/black">
-    <img alt="https://img.shields.io/badge/code%20style-black-000000.svg" src="https://img.shields.io/badge/code%20style-black-000000.svg">
-  </a>
+The lesson from every market: the people who sell **shovels** in stages 1 and 2 earn steadily while sellers fight on price. Start in the service layer, then use the data you gather there to build a brand.
 
-<a href="https://github.com/freemocap/freemocap/releases/latest">
-        <img src="https://img.shields.io/github/release/freemocap/freemocap.svg" alt="Latest Release">
-    </a>
+---
 
-<a href="https://github.com/freemocap/freemocap/blob/main/LICENSE">
-        <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPLv3">
-    </a>
+## 2. Models to replicate, ranked by speed to first revenue
 
-<a href="https://github.com/freemocap/freemocap/issues">
-        <img src="https://img.shields.io/badge/contributions-welcome-ff69b4.svg" alt="Contributions Welcome">
-    </a>
+### A. Service layer (low capital, fastest cash)
 
-<a href="https://github.com/psf/black">
-    <img alt="https://img.shields.io/badge/code%20style-black-000000.svg" src="https://img.shields.io/badge/code%20style-black-000000.svg">
-  </a>
+**1. TikTok Shop Partner agency (China: "TP" service providers; USA/UK: shop management agencies)**
+Runs a brand's shop end to end: listings, product videos, affiliate outreach, ads (GMV Max), livestreams.
+*Revenue:* monthly retainer plus 5% to 15% of sales. *Start cost:* very low. *Moat:* case studies from the first 10 clients.
 
-<a href="https://discord.gg/SgdnzbHDTG">
-    <img alt="Discord Community Server" src="https://dcbadge.vercel.app/api/server/SgdnzbHDTG?style=flat">
-  </a>
+**2. Creator / affiliate agency (China: MCNs such as Ruhnn and Qianxun; USA: creator talent managers)**
+Signs and trains local creators, matches them to brands, negotiates commission.
+*Revenue:* 10% to 30% of creator earnings plus brand placement fees. Local language and cultural humour give a home market edge foreign agencies cannot copy.
 
+**3. Livestream studio rental ("live base", 直播基地, Hangzhou and Guangzhou)**
+Rooms fitted with lighting, ring cameras, product shelves and stable fibre, rented by the hour or day to sellers and creators. Add a host on demand service.
+*Revenue:* hourly rent, host fees, packages. One warehouse unit can hold 6 to 10 booths.
 
-</p>
+**4. Host academy (China: livestream host training schools; now certified in China as an official job)**
+Courses that teach selling scripts, on camera presence, compliance rules and shop analytics.
+*Revenue:* course fees, placement fees from brands hiring graduates. Doubles as a recruitment funnel for models 2 and 3.
 
+**5. UGC video production at scale (USA: Billo, Insense)**
+A marketplace of everyday people who film short product videos for brands at a fixed price per video.
+*Revenue:* price per video with a platform margin of 30% to 50%.
 
-https://user-images.githubusercontent.com/15314521/192062522-2a8d9305-f181-4869-a4b9-1aa068e094c9.mp4
+**6. Sample and fulfilment hub for creators**
+Brands send stock once; the hub ships free samples to approved affiliates, tracks which samples turn into posts, and fulfils orders.
+*Revenue:* per parcel fee plus storage. Solves the largest daily pain for sellers in every new market.
 
+### B. Media and AI layer (medium capital, high margin)
 
+**7. AI livestream hosts and digital humans (China: Silicon Intelligence, Baidu digital humans)**
+Licensed AI avatars that present products 24 hours a day in local languages and accents. China saw small merchants run overnight streams with avatar hosts at a fraction of human cost.
+*Revenue:* monthly subscription per avatar or per streaming hour. Check TikTok's current rules on AI generated content and disclosure labels before launch.
 
+**8. AI video ad generator (USA: Creatify, Arcads, HeyGen)**
+Paste a product link, receive 20 short video ads with AI presenters, captions and hooks.
+*Revenue:* SaaS subscription. Local voices and local slang are the differentiator.
 
+**9. Shop analytics tool (China: Chanmama, Feigua; USA/UK: Kalodata, FastMoss)**
+Tracks trending products, top creators, competitor sales and price movement in one market.
+*Revenue:* monthly subscription. The first local tool owns the category, since global tools cover new markets thinly.
 
---
-## QUICKSTART
+**10. Micro drama app (China origin; USA hits: ReelShort, DramaBox)**
+Vertical series of 1 to 2 minute episodes, first episodes free, later episodes behind coins or a subscription, promoted with TikTok clips. Local stories filmed cheaply in weeks.
+*Revenue:* in app purchases, ads, product placement inside episodes.
 
-> [!NOTE] 
-> For  detailed installation instructions, see our [official documentation's Installation page](https://freemocap.github.io/documentation/installation.html#detailed-pip-installation-instructions)
+### C. Commerce layer (inventory risk, largest upside)
 
+**11. TikTok born brand (UK: Gymshark grew through creators; China: Perfect Diary, Florasis)**
+A private label in a category that films well: beauty, skincare, haircare, fragrance, supplements, kitchen gadgets, fashion basics, phone accessories. Use your agency data (models 1 and 9) to pick the product before you buy stock.
 
-#### 0. Create a a Python 3.10 through 3.12 environment (python3.12 recommended)
-#### 1. Install software via [pip](https://pypi.org/project/freemocap/#description):
+**12. Factory to creator supply chain (China: Yiwu and Guangzhou supply chain bases)**
+A catalogue of ready to ship products sourced from local or Chinese factories, offered to creators who sell without holding stock.
+*Revenue:* wholesale margin.
 
-```
-pip install freemocap
-```
+**13. Knowledge led live commerce (China: East Buy, where Dong Yuhui sold farm produce by teaching history and English on stream)**
+A channel that sells local food, crafts and regional products through storytelling and education. Builds trust and higher prices than discount streams.
 
-#### 2. Launch the GUI by entering the command:
+**14. Live auctions for collectibles and resale (USA: Whatnot; UK resale: Vinted, Depop)**
+Trading cards, sneakers, vintage clothing, watches, sold live through auction.
+*Revenue:* 8% to 10% commission per sale.
 
-```
-freemocap
-``` 
+**15. Comment to buy for boutiques (USA: CommentSold)**
+Software for small shops that sell on Facebook, Instagram and TikTok lives: a buyer types "sold" and an invoice is created automatically.
+*Revenue:* SaaS fee plus a small percentage of sales.
 
-####  3. A GUI should pop up that looks like this: 
+**16. Group buying and community buying (China: Pinduoduo, Meituan Select)**
+Neighbourhood group orders for groceries and household goods with one leader per area who collects and distributes.
+*Revenue:* margin on volume. Pairs well with TikTok and WhatsApp promotion.
 
-   <img width="1457" alt="image" src="https://github.com/freemocap/freemocap/assets/15314521/90ef7e7b-48f3-4f46-8d4a-5b5bcc3254b3">
+### D. Finance and promotion layer
 
-#### 4. Have fun! See the [Beginner Tutorials](https://freemocap.github.io/documentation/your-first-recording.html) on our official docs for detailed instructions.
+**17. Seller financing**: short term stock loans repaid from shop payouts (pattern from Shopify Capital and Chinese platform lending).
 
-#### 5. [Join the Discord and let us know how it went!](https://discord.gg/nxv5dNTfKT)
+**18. Shoppable video for websites (Sweden/USA: Bambuser, Firework)**: lets retailers run their own livestream and shoppable video on their site, for brands that want customers outside TikTok as well.
 
+**19. Promotion calendar campaigns**: China built shopping days from nothing (11.11 Singles Day, 6.18). A local agency or media brand can own a named sale day tied to a local payday or holiday.
 
+---
 
-___
-## Install/run from source code (i.e. the code in this repo)
+## 3. Recommended sequence for one founder or small team
 
-Open an [Anaconda-enabled command prompt](https://www.anaconda.org) (or your preferred method of environment management) and enter the following commands:
+1. **Month 0 to 3:** Launch model **1** (shop agency) and model **6** (sample hub) together. Sign 5 local brands before TikTok Shop opens.
+2. **Month 3 to 9:** Add model **3** (studio) and model **4** (host academy) using agency revenue. Recruit creators for model **2** from the academy.
+3. **Month 9 to 18:** Build model **9** (analytics) from the data your agency already collects; test model **7** (AI hosts) on overnight streams.
+4. **Month 12+:** Launch model **11** (own brand) in the category your data shows selling best.
 
-1) Create a `Python` environment (Recommended version  is `python3.11`)
+Each step feeds the next: clients give data, data picks products, studios and hosts sell them.
 
-```bash
-conda create -n freemocap-env python=3.11
-```
+---
 
-2) Activate that newly created environment
+## 4. Risks and how to plan for them
 
-```bash
-conda activate freemocap-env
-```
+| Risk | Lesson from other markets | Response |
+|---|---|---|
+| Platform rule changes | Indonesia closed TikTok Shop in October 2023, it returned only after merging with Tokopedia | Keep clients selling on two or more channels; own email and WhatsApp lists |
+| Price wars from cross border sellers | USA and UK sellers faced cheap imported goods | Compete on local speed, returns, trust and story |
+| Payments and payouts | Payout delays strain small sellers | Offer model 17 financing; plan cash flow for 2 to 4 week payouts |
+| Logistics and returns | Free shipping promotions drove return costs up | Price returns into margins; use model 6 |
+| Counterfeits and claims | Health and beauty claims get products removed | Build a compliance checklist into the agency and the academy |
+| Consumer and data protection law | Each country sets its own rules | Review local consumer protection, advertising standards and data privacy law before launch |
 
-3) Clone the repository
+---
 
-```bash
-git clone https://github.com/freemocap/freemocap
-```
+## 5. Next research steps
 
-4) Navigate into the newly cloned/downloaded `freemocap` folder
-
-```bash
-cd freemocap
-```
-
-5) Install the package via the `pyproject.toml` file
-
-```bash
-pip install -e .
-```
-
-6) Launch the GUI (via the `freemocap.__main__.py` entry point)
-
-```bash
-python -m freemocap
-```
-
-A GUI should pop up!
-
-___
-
-## Documentation 
-
-Our documentation is hosted at: https://freemocap.github.io/documentation
-
-That site is built using `writerside` from this repository: https://github.com/freemocap/documentation
-
-___
-
-
-
-### Contribution Guidelines
-
-Please read our contribution doc: [CONTRIBUTING.md](CONTRIBUTING.md)
-
-
-## Related
-
-[//]: # (* [project-name]&#40;#&#41; - Project description)
-
-## Maintainers
-
-* [Jon Matthis](https://github.com/jonmatthis)
-* [Endurance Idehen](https://github.com/endurance)
-
-## License
-
-This project is licensed under the APGL License - see the [LICENSE](LICENSE) file for details.
-
-If the AGPL does not work for your needs, we are happy to discuss terms to license this software to you with a different
-agreement at a price point that increases exponentially as you
-move [spiritually](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) away from the `AGPL`
-
+- Confirm the official TikTok Shop launch date, seller requirements and fee schedule for the target country.
+- List the top 50 local creators by audience and category.
+- Map local courier rates, payment gateways and return costs.
+- Interview 10 local brands about what stops them selling online today.
