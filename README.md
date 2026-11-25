@@ -123,7 +123,62 @@ Each step feeds the next: clients give data, data picks products, studios and ho
 
 ---
 
-## 5. Next research steps
+## 5. South Africa: the playbook
+
+### Where things stand (late November 2026)
+
+- **TikTok Shop is still to open in South Africa.** TikTok has announced no date, and South Africa sits outside the 21 to 24 markets listed as live in 2026. Check TikTok Seller Center for changes.
+- **TikTok One opened in South Africa on 22 September 2026.** It is TikTok's hub that connects brands with creators for paid deals, the first commerce tool live locally.
+- **Online retail reaches about R159 billion in 2026**, up 22.5% and about 10% of all retail (World Wide Worx forecast).
+- **Where shoppers buy online:** Takealot 35.3%, Shein 21.5%, Amazon 12.7%, Temu 11.6%. Temu and Shein growth slowed after SARS removed the duty free concession on small imported parcels. Amazon Prime arrived in June 2026.
+
+This window before launch is the head start: build audiences, studios and client lists now, then switch on checkout the day TikTok Shop opens.
+
+### Local strengths to build on
+
+| South African reality | How to use it |
+|---|---|
+| 12 official languages | Multilingual creators and AI hosts in isiZulu, isiXhosa, Afrikaans, Sesotho and English |
+| WhatsApp is the daily shopping chat | Sell through WhatsApp and Instagram lives now, move buyers to TikTok Shop at launch |
+| Stokvels (community savings clubs) | Group buying where a stokvel orders in bulk for its members |
+| Pickup points: Pargo, PAXI at PEP stores | Cheap delivery and returns for shoppers outside metros |
+| Payments: Ozow, PayFast, Yoco, SnapScan, Peach Payments | Instant EFT and card links for live sales before TikTok checkout arrives |
+| Month end payday around the 25th, Black Friday, Heritage Day | Own a named sale day tied to payday |
+| Power cuts (load shedding) history | Studios with inverter and solar backup sell as "always live" |
+| Proudly South African products: rooibos, marula skincare, braai goods, local fashion | Storytelling lives that sell local heritage at premium prices |
+
+### Top 10 picks for South Africa
+
+1. **TikTok Shop readiness agency**: sets up brands now on TikTok One, content and creator lists, then runs their shop from launch day.
+2. **Multilingual creator agency**: signs township and suburban creators in every language.
+3. **Livestream studio with power backup** in Johannesburg, Cape Town and Durban.
+4. **Sample and fulfilment hub** linked to Pargo and PAXI pickup points.
+5. **Hair and beauty brand**: wigs, braids, skincare for melanin rich skin. The strongest TikTok category in every market, with deep local demand.
+6. **WhatsApp comment to buy software** for boutiques, earning revenue today.
+7. **Stokvel group buying app** for groceries and household goods.
+8. **AI hosts and AI video ads in local languages.**
+9. **South African micro drama app** with stories in local languages, filmed fast and cheaply.
+10. **Local shop analytics tool**, ready on launch day.
+
+### South African law to check before launch
+
+- **POPIA** for customer data and marketing messages.
+- **Consumer Protection Act** for returns, quality and fair marketing.
+- **ECT Act** for online sales, including the 7 day cooling off period.
+- **Advertising Regulatory Board** code for influencer disclosure (#ad).
+
+### Sources
+
+- [GrowthCharter: Is TikTok Shop in South Africa yet?](https://growthcharter.co.za/tiktok-newsroom/is-tiktok-shop-available-in-south-africa/)
+- [Gadget: TikTok One launches in SA](https://gadget.co.za/tiktokone14t/)
+- [IOL: South Africa turns up pressure on TikTok](https://iol.co.za/business/2026-09-29-pay-our-creators-south-africa-turns-up-pressure-on-tiktok/)
+- [TimesLIVE: Online retail expected to reach R159bn](https://www.timeslive.co.za/news/2026-09-02-online-retail-sales-expected-to-leap-to-r159bn-this-year/)
+- [Connecting Africa: SA shoppers prefer local to Temu, Shein](https://www.connectingafrica.com/ecommerce/south-african-online-shoppers-prefer-local-to-temu-shein)
+- [Slashcart: TikTok Shop available countries 2026](https://slashcart.org/blogs/news/tiktok-shop-available-countries)
+
+---
+
+## 6. Next research steps
 
 - Confirm the official TikTok Shop launch date, seller requirements and fee schedule for the target country.
 - List the top 50 local creators by audience and category.
